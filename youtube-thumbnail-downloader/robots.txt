@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://thumbnail.nexussolver.in/sitemap.xml
