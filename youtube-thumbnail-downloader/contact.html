@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NexusThumb</title>
+    <meta name="description" content="Get in touch with the NexusThumb team. We are here to help with your queries and feedback.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styling specific to the contact form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            font-family: inherit;
+        }
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Nexus<span>Thumb</span></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="guide.html">Guide</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </nav>
+    </header>
+
+    <main class="seo-content">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Whether you have a question about our tool, need assistance, or just want to share your feedback, feel free to reach out.</p>
+
+        <h2>Email Us Directly</h2>
+        <p>For the fastest response, you can email our support team directly at: <br>
+        <strong><a href="mailto:universallabs.studio@gmail.com" style="color: var(--primary);">universallabs.studio@gmail.com</a></strong></p>
+
+        <h2>Send a Message</h2>
+        <p>Alternatively, you can fill out the form below. <em>(Note: For immediate assistance, please use the email above)</em>.</p>
+        
+        <form class="contact-form" action="mailto:universallabs.studio@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email Address" required>
+            <textarea name="Message" placeholder="How can we help you?" required></textarea>
+            <button type="submit" style="width: fit-content;">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="guide.html">Guide</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2026 NexusThumb. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
